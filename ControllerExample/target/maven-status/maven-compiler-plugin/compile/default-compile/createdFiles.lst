@@ -1,0 +1,4 @@
+hu\bfo\web\controller\TestController.class
+hu\bfo\web\controller\LoginController.class
+hu\bfo\web\controller\LoginBean.class
+hu\bfo\web\filter\SecurityFilter.class

@@ -24,4 +24,4 @@ steps:
 - script: |
     k6 login cloud --token $(k6cloud.token)
     k6 cloud --quiet loadtests/cloud.js
-displayName: Run k6 cloud load test within Azure Pipelines  
+  displayName: Run k6 cloud load test within Azure Pipelines  

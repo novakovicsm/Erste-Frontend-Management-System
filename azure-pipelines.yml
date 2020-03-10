@@ -22,6 +22,6 @@ steps:
   displayName: Check if k6 is installed
 
 - script: |
-    k6 login cloud --token $(k6cloud.token)
+    k6 login cloud -t 10bb84a64582068564b38cc47db705db6a8439a2ca6506fd4b71de1641d3d1b7
     k6 cloud --quiet loadtests/cloud.js
   displayName: Run k6 cloud load test within Azure Pipelines  

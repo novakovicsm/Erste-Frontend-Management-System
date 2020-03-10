@@ -5,7 +5,9 @@ export let options = {stages: [
 		{duration: "20s", target: 15},
 		{duration: "10s",target: 0}],
 	thresholds: {"http_req_duration": ["p(95)<250"]},
-	ext: {loadimpact: {name: "test.loadimpact.com", distribution: {
+	ext: {loadimpact: {
+			projectID: 3483149,
+			name: "test.loadimpact.com", distribution: {
 		loadZoneLabel1: {loadZone: "amazon:us:ashburn", percent: 60},
 		loadZoneLabel2: {loadZone: "amazon:ie:dublin",percent: 40}
 		}}}

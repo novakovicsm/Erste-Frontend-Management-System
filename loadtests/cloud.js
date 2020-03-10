@@ -8,7 +8,7 @@ export let options = {stages: [
 	ext: {loadimpact: {
 			projectID: 3483149,
 			name: "test.loadimpact.com", distribution: {
-		loadZoneLabel1: {loadZone: "amazon:us:ashburn", percent: 60}
+		loadZoneLabel1: {loadZone: "amazon:us:ashburn", percent: 100}
 		}}}
 	};
 	
